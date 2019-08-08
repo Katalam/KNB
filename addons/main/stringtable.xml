@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="KNB">
+    <Package name="main">
+        <Key ID="STR_KNB_main_author">
+            <English>Katalam</English>
+            <German>Katalam</German>
+        </Key>
+    </Package>
+</Project>

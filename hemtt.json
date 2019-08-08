@@ -1,0 +1,9 @@
+{
+  "name": "KAT Notebook",
+  "prefix": "KNB",
+  "author": "Katalam",
+  "files": [
+    "mod.cpp"
+  ],
+  "sigversion": 3
+}
