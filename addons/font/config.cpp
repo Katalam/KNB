@@ -6,7 +6,7 @@
             weapons[] = {};
             requiredVersion = REQUIRED_VERSION;
             requiredAddons[] = {};
-            author = "Katalam";
+            author = ECSTRING(main,author);
             VERSION_CONFIG;
         };
     };
