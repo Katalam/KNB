@@ -20,7 +20,7 @@
     Visit me on <a href="https://discord.gg/HbA93HK">Discord</a></strong></sup>
 </p>
 
-A Blue Force Tracking on the map.
+A notebook.
 
 ## Getting Started
 
