@@ -65,7 +65,7 @@ class GVAR(notebook) {
         class Background: RscPicture {
             idc = IDC_BG;
             moving = 1;
-            text = QPATHTOF(ui\book_test.paa);
+            text = QPATHTOF(ui\book.paa);
             x = 0 * safezoneW + safezoneX;
             y = 0 * safezoneH + safezoneY;
             w = 0.5 * safezoneW;
