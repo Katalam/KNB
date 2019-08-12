@@ -25,7 +25,7 @@ private _display = uiNamespace getVariable "KNB_notebook";
 
 (_display displayCtrl IDC_LINEFOURTEXT) ctrlSetText "SPECIAL EQUIP REQ";
 (_display displayCtrl IDC_LINEFIVETEXT) ctrlSetText "P BY TYPE";
-(_display displayCtrl IDC_LINESIXTEXT) ctrlSetText "SCERUITY PICK UP";
+(_display displayCtrl IDC_LINESIXTEXT) ctrlSetText "SECURITY PICK UP";
 
 (_display displayCtrl IDC_LINESEVENTEXT) ctrlSetText "TYPE MARK";
 (_display displayCtrl IDC_LINEEIGHTTEXT) ctrlSetText "NATIONALITY";
