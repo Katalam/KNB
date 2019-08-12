@@ -2,9 +2,11 @@ class RscButton;
 class RscText;
 class RscPicture;
 class RscEdit;
+class RscStructuredText;
 
 #define COLOR_PENCIL {0.35,0.35,0.35,1}
 #define COLOR_TRANSPARENCY {1,1,1,0}
+#define COLOR_WHITE {0.812,0.8,0.796,1}
 
 class GVAR(Button): RscButton {
     text = "";
@@ -354,6 +356,15 @@ class GVAR(notebook) {
             y = 0.664936 * safezoneH + safezoneY;
             w = 0.144375 * safezoneW;
             h = 0.0001 * safezoneH;
+        };
+        class Notes: GVAR(Edit) {
+            idc = IDC_NOTES;
+            text = "Notes";
+            style = ST_MULTI + ST_NO_RECT;
+            x = 0.070798 * safezoneW + safezoneX;
+            y = 0.401039 * safezoneH + safezoneY;
+            w = 0.159844 * safezoneW;
+            h = 0.285889 * safezoneH;
         };
     };
 };

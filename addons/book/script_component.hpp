@@ -1,8 +1,8 @@
 #define COMPONENT book
 #include "\z\KNB\addons\main\script_mod.hpp"
 
-#define DEBUG_MODE_FULL
-#define DISABLE_COMPILE_CACHE
+// #define DEBUG_MODE_FULL
+// #define DISABLE_COMPILE_CACHE
 
 #ifdef DEBUG_ENABLED_BOOK
     #define DEBUG_MODE_FULL
@@ -129,3 +129,5 @@
 #define IDC_LINESEVENLINE 2807
 #define IDC_LINEEIGHTLINE 2808
 #define IDC_LINENINELINE 2809
+
+#define IDC_NOTES 2810
