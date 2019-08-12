@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="KNB">
+    <Package name="book">
+        <Key ID="STR_KNB_book_book_displayName">
+            <English>Notebook</English>
+            <German>Notizbuch</German>
+        </Key>
+        <Key ID="STR_KNB_book_book_description">
+            <English>Katalam</English>
+            <German>Katalam</German>
+        </Key>
+        <Key ID="STR_KNB_book_keyBind">
+            <English>Open the notebook if you have one</English>
+            <German>Öffnet das Notizbuch, wenn du eins hast</German>
+        </Key>
+    </Package>
+</Project>
