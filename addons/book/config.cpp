@@ -16,4 +16,5 @@
 
 #include "CfgEventHandlers.hpp"
 #include "CfgWeapons.hpp"
+#include "CfgVehicles.hpp"
 #include "ui\book.hpp"
