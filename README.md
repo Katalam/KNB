@@ -1,4 +1,4 @@
-# KNB
+# KAT - Notebook
 
 <p align="center">
     <a href="https://github.com/Katalam/KNB/releases/latest">
