@@ -2,7 +2,7 @@ class CfgWeapons {
     class ACE_ItemCore;
     class CBA_MiscItem_ItemInfo;
 
-    class KNB_Notebook: ACE_ItemCore {
+    class PVAR(Notebook): ACE_ItemCore {
         scope = 2;
         scopeArsenal = 2;
         author = ECSTRING(main,author);
