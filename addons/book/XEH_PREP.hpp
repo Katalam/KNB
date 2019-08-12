@@ -1,3 +1,3 @@
 PREP(onLoad);
-PREP(onMouseButtonDblClick);
+PREP(onMouseButtonDblClickEraser);
 PREP(onUnload);

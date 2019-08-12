@@ -90,7 +90,7 @@ class GVAR(notebook) {
         };
         class Button_Clear: GVAR(Button) {
             idc = IDC_CLEAR;
-            onMouseButtonDblClick = QUOTE(_this call FUNC(onMouseButtonDblClick));
+            onMouseButtonDblClick = QUOTE(_this call FUNC(onMouseButtonDblClickEraser));
             x = 0.432969 * safezoneW + safezoneX;
             y = 0.236103 * safezoneH + safezoneY;
             w = 0.0154688 * safezoneW;
