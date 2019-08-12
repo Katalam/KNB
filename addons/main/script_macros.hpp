@@ -9,3 +9,5 @@
 #endif
 
 #define KNBVAR(var1) DOUBLES(PREFIX,var1)
+#define LINKFUNC(var) {_this call FUNC(var1)}
+#define QLINKFUNC(var) QUOTE(_this call FUNC(var1))
