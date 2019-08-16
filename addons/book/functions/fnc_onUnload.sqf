@@ -15,18 +15,6 @@
  * Public: No
  */
 
-#define IDC_CALLSIGNTEXT 2665
-
-#define IDC_LINEONETEXT 2666
-#define IDC_LINETWOTEXT 2667
-#define IDC_LINETHREETEXT 2668
-#define IDC_LINEFOURTEXT 2669
-#define IDC_LINEFIVETEXT 2670
-#define IDC_LINESIXTEXT 2671
-#define IDC_LINESEVENTEXT 2672
-#define IDC_LINEEIGHTTEXT 2673
-#define IDC_LINENINETEXT 2674
-
 uiNamespace setVariable ['KNB_notebook', nil];
 
 private _text = [];
