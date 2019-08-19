@@ -1,6 +1,10 @@
 # KAT - Notebook
 
 <p align="center">
+    <img src="https://github.com/Katalam/KNB/blob/master/logo.png">
+</p>
+
+<p align="center">
     <a href="https://github.com/Katalam/KNB/releases/latest">
         <img src="https://img.shields.io/badge/Version-0.0.1-blue.svg?style=flat-square" alt="KNB Version">
     </a>
