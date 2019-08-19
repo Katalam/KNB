@@ -24,7 +24,7 @@
     Visit me on <a href="https://discord.gg/HbA93HK">Discord</a></strong></sup>
 </p>
 
-A notebook.
+You were ever in the need of writing something down? Here you are.
 
 ## Getting Started
 
