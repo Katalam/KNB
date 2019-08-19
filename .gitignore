@@ -2,6 +2,8 @@
 *.bisign
 
 *.png
+!workshop.png
+!logo.png
 *.blend
 *.fbx
 *.jpg
