@@ -3,7 +3,9 @@
   "prefix": "KNB",
   "author": "Katalam",
   "files": [
-    "mod.cpp"
+    "mod.cpp",
+    "book.paa"
   ],
-  "sigversion": 3
+  "sigversion": 3,
+  "version": "0.1.0.5"
 }
