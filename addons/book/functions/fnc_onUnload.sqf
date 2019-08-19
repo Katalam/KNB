@@ -4,13 +4,13 @@
  * Triggers on unload of the notebook page.
  *
  * Arguments:
- * 0: Display <NUMBER>
+ * None
  *
  * Return Value:
- * Return Name <TYPE>
+ * None
  *
  * Example:
- * [2650] call KNB_book_fnc_onUnload;
+ * call KNB_book_fnc_onUnload;
  *
  * Public: No
  */
@@ -19,9 +19,11 @@ uiNamespace setVariable ['KNB_notebook', nil];
 
 private _text = [];
 
-[IDC_CALLSIGNTEXT, IDC_LINEONETEXT, IDC_LINETWOTEXT, IDC_LINETHREETEXT, IDC_LINEFOURTEXT, IDC_LINEFIVETEXT, IDC_LINESIXTEXT, IDC_LINESEVENTEXT, IDC_LINEEIGHTTEXT, IDC_LINENINETEXT] apply {
+([IDC_CALLSIGNTEXT, IDC_NOTES, IDC_EXPLAIN] + IDC_LINEALLTEXT) apply {
     _text pushBack [_x, ctrlText _x];
     TRACE_2("Notebook display unload", _x, ctrlText _x);
 };
+
+player setVariable [QGVAR(notebookPage), (uiNamespace getVariable "KNB_page")];
 
 player setVariable [QGVAR(notebookData), _text];

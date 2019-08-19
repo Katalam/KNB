@@ -7,7 +7,7 @@
  * 0: Display <NUMBER>
  *
  * Return Value:
- * Return Name <TYPE>
+ * None
  *
  * Example:
  * [2650] call KNB_book_fnc_onLoad;
@@ -21,6 +21,14 @@ uiNamespace setVariable ['KNB_notebook', _display];
 
 private _text = player getVariable [QGVAR(notebookData), []];
 TRACE_1("QGVAR(notebookData)", _text);
+
+private _switchPage = player getVariable [QGVAR(notebookPage), false];
+
+if (_switchPage) then {
+    call FUNC(onMouseButtonClickRight);
+} else {
+    call FUNC(onMouseButtonClickLeft);
+};
 
 if (_text isEqualTo []) exitWith {};
 

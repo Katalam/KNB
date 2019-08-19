@@ -1,16 +1,16 @@
 #include "script_component.hpp"
 /*
  * Author: Katalam
- * Triggered with onMouseButtonDblClick of the left button at the notebook page.
+ * Triggered with onMouseButtonDblClick of the purple button at the notebook page.
  *
  * Arguments:
- * 0: Display <NUMBER>
+ * None
  *
  * Return Value:
- * Return Name <TYPE>
+ * None
  *
  * Example:
- * [2650] call KNB_book_fnc_onMouseButtonDblClickLeft;
+ * call KNB_book_fnc_onMouseButtonDblClickPurple;
  *
  * Public: No
  */
@@ -30,3 +30,5 @@ private _display = uiNamespace getVariable "KNB_notebook";
 (_display displayCtrl IDC_LINESEVENTEXT) ctrlSetText "TYPE MARK";
 (_display displayCtrl IDC_LINEEIGHTTEXT) ctrlSetText "NATIONALITY";
 (_display displayCtrl IDC_LINENINETEXT) ctrlSetText "TERRAIN DESC";
+
+(_display displayCtrl IDC_EXPLAIN) ctrlSetText "L2 \n A URGENT - B PRIORITY C ROUTINE \n L4 \n A NONE - B HOIST/ WINCH \n C EXTRACTION - D VENTILATOR";

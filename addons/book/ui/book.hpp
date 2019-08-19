@@ -55,9 +55,7 @@ class GVAR(Edit): RscEdit {
 
 class GVAR(notebook) {
     onLoad = QUOTE(_this call FUNC(onLoad));
-    //onLoad = QLINKFUNC(onLoad);
     onUnload = QUOTE(_this call FUNC(onUnload));
-    //onUnload = QLINKFUNC(onUnload);
     idd = IDD;
     name = QGVAR(notebook);
     movingEnable = false;
@@ -67,7 +65,7 @@ class GVAR(notebook) {
         class Background: RscPicture {
             idc = IDC_BG;
             moving = 1;
-            text = QPATHTOF(ui\book.paa);
+            text = QPATHTOF(ui\book_ca.paa);
             x = 0 * safezoneW + safezoneX;
             y = 0 * safezoneH + safezoneY;
             w = 0.5 * safezoneW;
@@ -76,18 +74,98 @@ class GVAR(notebook) {
         };
     };
     class controls {
+        class ButtonBlue: GVAR(Button) {
+            idc = IDC_BLUE;
+            onMouseButtonDblClick = QUOTE(_this call FUNC(onMouseButtonDblClickBlue));
+            x = 0.025625 * safezoneW + safezoneX;
+            y = 0.642944 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.07697 * safezoneH;
+        };
+        class ButtonBlueText: GVAR(Line) {
+            idc = -1;
+            style = ST_LEFT;
+            x = 0.025625 * safezoneW + safezoneX;
+            y = 0.642944 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.07697 * safezoneH;
+        };
+        class ButtonPink: GVAR(Button) {
+            idc = IDC_PINK;
+            onMouseButtonDblClick = QUOTE(_this call FUNC(onMouseButtonDblClickPink));
+            x = 0.025625 * safezoneW + safezoneX;
+            y = 0.543983 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.07697 * safezoneH;
+        };
+        class ButtonPinkText: GVAR(Line) {
+            idc = -1;
+            style = ST_LEFT;
+            x = 0.025625 * safezoneW + safezoneX;
+            y = 0.543983 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.07697 * safezoneH;
+        };
+        class ButtonPurple: GVAR(Button) {
+            idc = IDC_PURPLE;
+            onMouseButtonDblClick = QUOTE(_this call FUNC(onMouseButtonDblClickPurple));
+            x = 0.025625 * safezoneW + safezoneX;
+            y = 0.456017 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.07697 * safezoneH;
+        };
+        class ButtonPurpleText: GVAR(Line) {
+            idc = -1;
+            style = ST_LEFT;
+            x = 0.025625 * safezoneW + safezoneX;
+            y = 0.456017 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.07697 * safezoneH;
+        };
+        class ButtonYellow: GVAR(Button) {
+            idc = IDC_YELLOW;
+            onMouseButtonDblClick = QUOTE(_this call FUNC(onMouseButtonDblClickYellow));
+            x = 0.025625 * safezoneW + safezoneX;
+            y = 0.357056 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.07697 * safezoneH;
+        };
+        class ButtonYellowText: GVAR(Line) {
+            idc = -1;
+            style = ST_LEFT;
+            x = 0.025625 * safezoneW + safezoneX;
+            y = 0.357056 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.07697 * safezoneH;
+        };
+        class ButtonRed: GVAR(Button) {
+            idc = IDC_RED;
+            onMouseButtonDblClick = QUOTE(_this call FUNC(onMouseButtonDblClickRed));
+            x = 0.025625 * safezoneW + safezoneX;
+            y = 0.280086 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.07697 * safezoneH;
+        };
+        class ButtonRedText: GVAR(Line) {
+            idc = -1;
+            style = ST_LEFT;
+            x = 0.025625 * safezoneW + safezoneX;
+            y = 0.280086 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.07697 * safezoneH;
+        };
         class ButtonRight: GVAR(Button) {
             idc = IDC_RIGHT;
-            onMouseButtonDblClick = QUOTE(_this call FUNC(onMouseButtonDblClickRight));
+            onMouseButtonClick = QUOTE(_this call FUNC(onMouseButtonClickRight));
             x = 0.393301 * safezoneW + safezoneX;
             y = 0.713441 * safezoneH + safezoneY;
             w = 0.05 * safezoneW;
             h = 0.04 * safezoneH;
         };
         class ButtonRightText: GVAR(Line) {
-            idc = -1;
+            idc = IDC_BUTTONTEXTRIGHT;
             style = ST_CENTER;
-            text = "CAS";
+            text = "->";
             x = 0.393301 * safezoneW + safezoneX;
             y = 0.713441 * safezoneH + safezoneY;
             w = 0.05 * safezoneW;
@@ -95,20 +173,29 @@ class GVAR(notebook) {
         };
         class ButtonLeft: GVAR(Button) {
             idc = IDC_LEFT;
-            onMouseButtonDblClick = QUOTE(_this call FUNC(onMouseButtonDblClickLeft));
+            onMouseButtonClick = QUOTE(_this call FUNC(onMouseButtonClickLeft));
             x = 0.056785 * safezoneW + safezoneX;
             y = 0.713441 * safezoneH + safezoneY;
             w = 0.05 * safezoneW;
             h = 0.04 * safezoneH;
         };
         class ButtonLeftText: GVAR(Line) {
-            idc = -1;
+            idc = IDC_BUTTONTEXTLEFT;
             style = ST_CENTER;
-            text = "MED";
+            text = "<-";
             x = 0.056785 * safezoneW + safezoneX;
             y = 0.713441 * safezoneH + safezoneY;
             w = 0.05 * safezoneW;
             h = 0.04 * safezoneH;
+        };
+        class Explain: GVAR(Line) {
+            idc = IDC_EXPLAIN;
+            style = ST_MULTI + ST_NO_RECT;
+            sizeEx = 0.05;
+            x = 0.267969 * safezoneW + safezoneX;
+            y = 0.280086 * safezoneH + safezoneY;
+            w = 0.170156 * safezoneW;
+            h = 0.38485 * safezoneH;
         };
         class Button_Clear: GVAR(Button) {
             idc = IDC_CLEAR;
@@ -152,7 +239,6 @@ class GVAR(notebook) {
         };
         class LineOneText: GVAR(Edit) {
             idc = IDC_LINEONETEXT;
-            text = "IP";
             x = 0.29375 * safezoneW + safezoneX;
         	y = 0.280086 * safezoneH + safezoneY;
         	w = 0.144375 * safezoneW;
@@ -176,7 +262,6 @@ class GVAR(notebook) {
         };
         class LineTwoText: GVAR(Edit) {
             idc = IDC_LINETWOTEXT;
-            text = "HEADING";
             x = 0.29375 * safezoneW + safezoneX;
         	y = 0.324069 * safezoneH + safezoneY;
         	w = 0.144375 * safezoneW;
@@ -200,7 +285,6 @@ class GVAR(notebook) {
         };
         class LineThreeText: GVAR(Edit) {
             idc = IDC_LINETHREETEXT;
-            text = "DISTANCE";
             x = 0.29375 * safezoneW + safezoneX;
         	y = 0.368051 * safezoneH + safezoneY;
         	w = 0.144375 * safezoneW;
@@ -224,7 +308,6 @@ class GVAR(notebook) {
         };
         class LineFourText: GVAR(Edit) {
             idc = IDC_LINEFOURTEXT;
-            text = "ELEVATION";
             x = 0.29375 * safezoneW + safezoneX;
         	y = 0.412034 * safezoneH + safezoneY;
         	w = 0.144375 * safezoneW;
@@ -248,7 +331,6 @@ class GVAR(notebook) {
         };
         class LineFiveText: GVAR(Edit) {
             idc = IDC_LINEFIVETEXT;
-            text = "DESCRIPTION";
             x = 0.29375 * safezoneW + safezoneX;
         	y = 0.456017 * safezoneH + safezoneY;
         	w = 0.144375 * safezoneW;
@@ -272,7 +354,6 @@ class GVAR(notebook) {
         };
         class LineSixText: GVAR(Edit) {
             idc = IDC_LINESIXTEXT;
-            text = "LOCATION";
             x = 0.29375 * safezoneW + safezoneX;
         	y = 0.5 * safezoneH + safezoneY;
         	w = 0.144375 * safezoneW;
@@ -296,7 +377,6 @@ class GVAR(notebook) {
         };
         class LineSevenText: GVAR(Edit) {
             idc = IDC_LINESEVENTEXT;
-            text = "TYPE MARK";
             x = 0.29375 * safezoneW + safezoneX;
         	y = 0.543983 * safezoneH + safezoneY;
         	w = 0.144375 * safezoneW;
@@ -320,7 +400,6 @@ class GVAR(notebook) {
         };
         class LineEightText: GVAR(Edit) {
             idc = IDC_LINEEIGHTTEXT;
-            text = "FRIENDLIES";
             x = 0.29375 * safezoneW + safezoneX;
         	y = 0.587966 * safezoneH + safezoneY;
         	w = 0.144375 * safezoneW;
@@ -344,7 +423,6 @@ class GVAR(notebook) {
         };
         class LineNineText: GVAR(Edit) {
             idc = IDC_LINENINETEXT;
-            text = "EGRESS";
             x = 0.29375 * safezoneW + safezoneX;
         	y = 0.631949 * safezoneH + safezoneY;
         	w = 0.144375 * safezoneW;

@@ -1,5 +1,10 @@
 PREP(onLoad);
+PREP(onMouseButtonClickLeft);
+PREP(onMouseButtonClickRight);
+PREP(onMouseButtonDblClickBlue);
 PREP(onMouseButtonDblClickEraser);
-PREP(onMouseButtonDblClickLeft);
-PREP(onMouseButtonDblClickRight);
+PREP(onMouseButtonDblClickPink);
+PREP(onMouseButtonDblClickPurple);
+PREP(onMouseButtonDblClickRed);
+PREP(onMouseButtonDblClickYellow);
 PREP(onUnload);

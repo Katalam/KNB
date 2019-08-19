@@ -1,16 +1,16 @@
 #include "script_component.hpp"
 /*
  * Author: Katalam
- * Triggered with onMouseButtonDblClick of the right button at the notebook page.
+ * Triggered with onMouseButtonDblClick of the yellow button at the notebook page.
  *
  * Arguments:
- * 0: Display <NUMBER>
+ * None
  *
  * Return Value:
- * Return Name <TYPE>
+ * None
  *
  * Example:
- * [2650] call KNB_book_fnc_onMouseButtonDblClick;
+ * call KNB_book_fnc_onMouseButtonDblClickYellow;
  *
  * Public: No
  */
@@ -30,3 +30,5 @@ private _display = uiNamespace getVariable "KNB_notebook";
 (_display displayCtrl IDC_LINESEVENTEXT) ctrlSetText "TYPE MARK";
 (_display displayCtrl IDC_LINEEIGHTTEXT) ctrlSetText "FRIENDLIES";
 (_display displayCtrl IDC_LINENINETEXT) ctrlSetText "EGRESS";
+
+(_display displayCtrl IDC_EXPLAIN) ctrlSetText "";
