@@ -1,6 +1,6 @@
 class CfgFontFamilies {
     class manic {
-    	fonts[] = {
+        fonts[] = {
             QPATHTOF(manic\manic-depressive6),
             QPATHTOF(manic\manic-depressive7),
             QPATHTOF(manic\manic-depressive8),
@@ -31,7 +31,7 @@ class CfgFontFamilies {
             QPATHTOF(manic\manic-depressive35),
             QPATHTOF(manic\manic-depressive46)
         };
-    	spaceWidth = 0.7;
-    	spacing = 0.13;
+        spaceWidth = 0.7;
+        spacing = 0.13;
     };
 };

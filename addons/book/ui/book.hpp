@@ -233,16 +233,16 @@ class GVAR(notebook) {
             idc = IDC_LINEONE;
             text = "1";
             x = 0.262812 * safezoneW + safezoneX;
-        	y = 0.26909 * safezoneH + safezoneY;
-        	w = 0.04125 * safezoneW;
-        	h = 0.0549786 * safezoneH;
+            y = 0.26909 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.0549786 * safezoneH;
         };
         class LineOneText: GVAR(Edit) {
             idc = IDC_LINEONETEXT;
             x = 0.29375 * safezoneW + safezoneX;
-        	y = 0.280086 * safezoneH + safezoneY;
-        	w = 0.144375 * safezoneW;
-        	h = 0.0329871 * safezoneH;
+            y = 0.280086 * safezoneH + safezoneY;
+            w = 0.144375 * safezoneW;
+            h = 0.0329871 * safezoneH;
         };
         class LineOneLine: GVAR(Style_Line) {
             idc = IDC_LINEONELINE;
@@ -256,16 +256,16 @@ class GVAR(notebook) {
             idc = IDC_LINETWO;
             text = "2";
             x = 0.262812 * safezoneW + safezoneX;
-        	y = 0.313073 * safezoneH + safezoneY;
-        	w = 0.04125 * safezoneW;
-        	h = 0.0549786 * safezoneH;
+            y = 0.313073 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.0549786 * safezoneH;
         };
         class LineTwoText: GVAR(Edit) {
             idc = IDC_LINETWOTEXT;
             x = 0.29375 * safezoneW + safezoneX;
-        	y = 0.324069 * safezoneH + safezoneY;
-        	w = 0.144375 * safezoneW;
-        	h = 0.0329871 * safezoneH;
+            y = 0.324069 * safezoneH + safezoneY;
+            w = 0.144375 * safezoneW;
+            h = 0.0329871 * safezoneH;
         };
         class LineTwoLine: GVAR(Style_Line) {
             idc = IDC_LINETWOLINE;
@@ -279,16 +279,16 @@ class GVAR(notebook) {
             idc = IDC_LINETHREE;
             text = "3";
             x = 0.262812 * safezoneW + safezoneX;
-        	y = 0.357056 * safezoneH + safezoneY;
-        	w = 0.04125 * safezoneW;
-        	h = 0.0549786 * safezoneH;
+            y = 0.357056 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.0549786 * safezoneH;
         };
         class LineThreeText: GVAR(Edit) {
             idc = IDC_LINETHREETEXT;
             x = 0.29375 * safezoneW + safezoneX;
-        	y = 0.368051 * safezoneH + safezoneY;
-        	w = 0.144375 * safezoneW;
-        	h = 0.0329871 * safezoneH;
+            y = 0.368051 * safezoneH + safezoneY;
+            w = 0.144375 * safezoneW;
+            h = 0.0329871 * safezoneH;
         };
         class LineThreeLine: GVAR(Style_Line) {
             idc = IDC_LINETHREELINE;
@@ -302,16 +302,16 @@ class GVAR(notebook) {
             idc = IDC_LINEFOUR;
             text = "4";
             x = 0.262812 * safezoneW + safezoneX;
-        	y = 0.401039 * safezoneH + safezoneY;
-        	w = 0.04125 * safezoneW;
-        	h = 0.0549786 * safezoneH;
+            y = 0.401039 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.0549786 * safezoneH;
         };
         class LineFourText: GVAR(Edit) {
             idc = IDC_LINEFOURTEXT;
             x = 0.29375 * safezoneW + safezoneX;
-        	y = 0.412034 * safezoneH + safezoneY;
-        	w = 0.144375 * safezoneW;
-        	h = 0.0329871 * safezoneH;
+            y = 0.412034 * safezoneH + safezoneY;
+            w = 0.144375 * safezoneW;
+            h = 0.0329871 * safezoneH;
         };
         class LineFourLine: GVAR(Style_Line) {
             idc = IDC_LINEFOURLINE;
@@ -325,16 +325,16 @@ class GVAR(notebook) {
             idc = IDC_LINEFIVE;
             text = "5";
             x = 0.262812 * safezoneW + safezoneX;
-        	y = 0.445021 * safezoneH + safezoneY;
-        	w = 0.04125 * safezoneW;
-        	h = 0.0549786 * safezoneH;
+            y = 0.445021 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.0549786 * safezoneH;
         };
         class LineFiveText: GVAR(Edit) {
             idc = IDC_LINEFIVETEXT;
             x = 0.29375 * safezoneW + safezoneX;
-        	y = 0.456017 * safezoneH + safezoneY;
-        	w = 0.144375 * safezoneW;
-        	h = 0.0329871 * safezoneH;
+            y = 0.456017 * safezoneH + safezoneY;
+            w = 0.144375 * safezoneW;
+            h = 0.0329871 * safezoneH;
         };
         class LineFiveLine: GVAR(Style_Line) {
             idc = IDC_LINEFIVELINE;
@@ -348,16 +348,16 @@ class GVAR(notebook) {
             idc = IDC_LINESIX;
             text = "6";
             x = 0.262812 * safezoneW + safezoneX;
-        	y = 0.489004 * safezoneH + safezoneY;
-        	w = 0.04125 * safezoneW;
-        	h = 0.0549786 * safezoneH;
+            y = 0.489004 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.0549786 * safezoneH;
         };
         class LineSixText: GVAR(Edit) {
             idc = IDC_LINESIXTEXT;
             x = 0.29375 * safezoneW + safezoneX;
-        	y = 0.5 * safezoneH + safezoneY;
-        	w = 0.144375 * safezoneW;
-        	h = 0.0329871 * safezoneH;
+            y = 0.5 * safezoneH + safezoneY;
+            w = 0.144375 * safezoneW;
+            h = 0.0329871 * safezoneH;
         };
         class LineSixLine: GVAR(Style_Line) {
             idc = IDC_LINESIXLINE;
@@ -371,16 +371,16 @@ class GVAR(notebook) {
             idc = IDC_LINESEVEN;
             text = "7";
             x = 0.262812 * safezoneW + safezoneX;
-        	y = 0.532987 * safezoneH + safezoneY;
-        	w = 0.04125 * safezoneW;
-        	h = 0.0549786 * safezoneH;
+            y = 0.532987 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.0549786 * safezoneH;
         };
         class LineSevenText: GVAR(Edit) {
             idc = IDC_LINESEVENTEXT;
             x = 0.29375 * safezoneW + safezoneX;
-        	y = 0.543983 * safezoneH + safezoneY;
-        	w = 0.144375 * safezoneW;
-        	h = 0.0329871 * safezoneH;
+            y = 0.543983 * safezoneH + safezoneY;
+            w = 0.144375 * safezoneW;
+            h = 0.0329871 * safezoneH;
         };
         class LineSevenLine: GVAR(Style_Line) {
             idc = IDC_LINESEVENLINE;
@@ -394,16 +394,16 @@ class GVAR(notebook) {
             idc = IDC_LINEEIGHT;
             text = "8";
             x = 0.262812 * safezoneW + safezoneX;
-        	y = 0.57697 * safezoneH + safezoneY;
-        	w = 0.04125 * safezoneW;
-        	h = 0.0549786 * safezoneH;
+            y = 0.57697 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.0549786 * safezoneH;
         };
         class LineEightText: GVAR(Edit) {
             idc = IDC_LINEEIGHTTEXT;
             x = 0.29375 * safezoneW + safezoneX;
-        	y = 0.587966 * safezoneH + safezoneY;
-        	w = 0.144375 * safezoneW;
-        	h = 0.0329871 * safezoneH;
+            y = 0.587966 * safezoneH + safezoneY;
+            w = 0.144375 * safezoneW;
+            h = 0.0329871 * safezoneH;
         };
         class LineEightLine: GVAR(Style_Line) {
             idc = IDC_LINEEIGHTLINE;
@@ -417,16 +417,16 @@ class GVAR(notebook) {
             idc = IDC_LINENINE;
             text = "9";
             x = 0.262812 * safezoneW + safezoneX;
-        	y = 0.620953 * safezoneH + safezoneY;
-        	w = 0.04125 * safezoneW;
-        	h = 0.0549786 * safezoneH;
+            y = 0.620953 * safezoneH + safezoneY;
+            w = 0.04125 * safezoneW;
+            h = 0.0549786 * safezoneH;
         };
         class LineNineText: GVAR(Edit) {
             idc = IDC_LINENINETEXT;
             x = 0.29375 * safezoneW + safezoneX;
-        	y = 0.631949 * safezoneH + safezoneY;
-        	w = 0.144375 * safezoneW;
-        	h = 0.0329871 * safezoneH;
+            y = 0.631949 * safezoneH + safezoneY;
+            w = 0.144375 * safezoneW;
+            h = 0.0329871 * safezoneH;
         };
         class LineNineLine: GVAR(Style_Line) {
             idc = IDC_LINENINELINE;
