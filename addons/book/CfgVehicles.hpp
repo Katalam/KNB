@@ -7,6 +7,7 @@ class CfgVehicles {
         displayName = CSTRING(book_displayName);
         author = ECSTRING(main,author);
         vehicleClass = "Items";
+        editorPreview = QPATHTOF(data\editorPreview.jpg);
         class TransportItems {
             MACRO_ADDITEM(PVAR(Notebook),1);
         };
