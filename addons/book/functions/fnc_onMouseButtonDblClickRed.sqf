@@ -19,6 +19,8 @@
 
 private _display = uiNamespace getVariable "KNB_notebook";
 
+[false] call FUNC(notesToggle);
+
 (_display displayCtrl IDC_LINEONETEXT) ctrlSetText "TYPE OF MSN";
 (_display displayCtrl IDC_LINETWOTEXT) ctrlSetText "MTHD OF LOCATION";
 

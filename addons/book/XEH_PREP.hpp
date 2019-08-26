@@ -1,3 +1,4 @@
+PREP(notesToggle);
 PREP(onLoad);
 PREP(onMouseButtonClickLeft);
 PREP(onMouseButtonClickRight);

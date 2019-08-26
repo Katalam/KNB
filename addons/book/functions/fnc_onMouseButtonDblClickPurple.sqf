@@ -19,6 +19,8 @@
 
 private _display = uiNamespace getVariable "KNB_notebook";
 
+[false] call FUNC(notesToggle);
+
 (_display displayCtrl IDC_LINEONETEXT) ctrlSetText "LOCATION";
 (_display displayCtrl IDC_LINETWOTEXT) ctrlSetText "CALLSIGN FREQ";
 (_display displayCtrl IDC_LINETHREETEXT) ctrlSetText "P BY PRECEDENCE";

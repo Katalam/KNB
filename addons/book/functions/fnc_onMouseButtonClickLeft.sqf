@@ -27,4 +27,6 @@ private _display = uiNamespace getVariable "KNB_notebook";
 (_display displayCtrl IDC_BUTTONTEXTRIGHT) ctrlShow true;
 (_display displayCtrl IDC_BUTTONTEXTLEFT) ctrlShow false;
 
+[(uiNamespace getVariable "KNB_notes")] call FUNC(notesToggle);
+
 uiNamespace setVariable ["KNB_page", false];

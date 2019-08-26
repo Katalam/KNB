@@ -444,5 +444,14 @@ class GVAR(notebook) {
             w = 0.159844 * safezoneW;
             h = 0.285889 * safezoneH;
         };
+        class NotesTwo: GVAR(Edit) {
+            idc = IDC_NOTES2;
+            text = "Notes";
+            style = ST_MULTI + ST_NO_RECT;
+            x = 0.262812 * safezoneW + safezoneX;
+            y = 0.280086 * safezoneH + safezoneY;
+            w = 0.175313 * safezoneW;
+            h = 0.38485 * safezoneH;
+        };
     };
 };

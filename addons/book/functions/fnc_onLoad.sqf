@@ -22,13 +22,16 @@ uiNamespace setVariable ['KNB_notebook', _display];
 private _text = player getVariable [QGVAR(notebookData), []];
 TRACE_1("QGVAR(notebookData)", _text);
 
-private _switchPage = player getVariable [QGVAR(notebookPage), false];
+private _data = player getVariable [QGVAR(notebookPage), [false, false]];
+_data params ["_switchPage", "_show2Notes"];
 
 if (_switchPage) then {
     call FUNC(onMouseButtonClickRight);
 } else {
     call FUNC(onMouseButtonClickLeft);
 };
+
+[_show2Notes] call FUNC(notesToggle);
 
 if (_text isEqualTo []) exitWith {};
 

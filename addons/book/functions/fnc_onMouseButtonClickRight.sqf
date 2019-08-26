@@ -24,6 +24,7 @@ private _display = uiNamespace getVariable "KNB_notebook";
 } forEach (IDC_LINEALL + IDC_LINEALLTEXT + IDC_LINEALLLINE);
 
 (_display displayCtrl IDC_EXPLAIN) ctrlShow true;
+(_display displayCtrl IDC_NOTES2) ctrlShow false;
 (_display displayCtrl IDC_BUTTONTEXTRIGHT) ctrlShow false;
 (_display displayCtrl IDC_BUTTONTEXTLEFT) ctrlShow true;
 
