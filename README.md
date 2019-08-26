@@ -62,7 +62,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 - **Katalam** - *Initial work*
-- **Tank** - *For a blender tutorial*
+- **Tank** - *Help with blender*
 
 <!---
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
