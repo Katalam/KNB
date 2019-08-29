@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="KNB">
+    <Package name="panel">
+        <Key ID="STR_KNB_panel_ace_action">
+            <English>Put panel down</English>
+            <German>Breite panel aus</German>
+        </Key>
+        <Key ID="STR_KNB_panel_ace_actionRemove">
+            <English>Pick panel up</English>
+            <German>Hebe panel auf</German>
+        </Key>
+        <Key ID="STR_KNB_panel_red">
+            <English>Red</English>
+            <German>Rot</German>
+        </Key>
+        <Key ID="STR_KNB_panel_redSmall">
+            <English>Red (Small)</English>
+            <German>Rot (Klein)</German>
+        </Key>
+        <Key ID="STR_KNB_panel_yellow">
+            <English>Yellow</English>
+            <German>Gelb</German>
+        </Key>
+        <Key ID="STR_KNB_panel_yellowSmall">
+            <English>Yellow (Small)</English>
+            <German>Gelb (Klein)</German>
+        </Key>
+        <Key ID="STR_KNB_panel_green">
+            <English>Green</English>
+            <German>Grün</German>
+        </Key>
+        <Key ID="STR_KNB_panel_greenSmall">
+            <English>Green (Small)</English>
+            <German>Grün (Klein)</German>
+        </Key>
+    </Package>
+</Project>

@@ -1,0 +1,1 @@
+#include "\z\KNB\addons\panel\script_component.hpp"
