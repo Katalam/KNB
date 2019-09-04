@@ -9,7 +9,7 @@
             <English>Open Notebook</English>
             <German>Öffne Notizbuch</German>
         </Key>
-                <Key ID="STR_KNB_book_cba_open">
+        <Key ID="STR_KNB_book_cba_open">
             <English>Ability to open Notebook with ace intercation</English>
             <German>Möglichkeit Notizbuch über ACE Interaktion zu öffnen</German>
         </Key>
