@@ -17,7 +17,7 @@
  * Public: Yes
  */
 
-params ["_target", "_player", "_params"];
+params ["_target", "_player"];
 
 private _actions = [];
 

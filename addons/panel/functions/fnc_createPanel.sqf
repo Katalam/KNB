@@ -19,10 +19,9 @@
 
 params [
     "",
-    ["_player", objNull, [objNull]],
-    ["_params", [], [[]]]
+    ["_player", objNull, [objNull]]
 ];
-_params params [
+(_this select 2) params [
     ["_color", "RED", [""]],
     ["_small", false, [false]]
 ];
@@ -61,7 +60,7 @@ if (_small) then {
 };
 
 private _helper = createVehicle ["Land_PortableCabinet_01_closed_sand_F", _posHelper, [], 0, "CAN_COLLIDE"];
-private _grasscutter = createVehicle ["Land_ClutterCutter_large_F", _position, [], 0, "CAN_COLLIDE"];
+createVehicle ["Land_ClutterCutter_large_F", _position, [], 0, "CAN_COLLIDE"];
 _helper setDir random 360;
 
 true;
