@@ -1,3 +1,4 @@
+# main.yml
 name: CI
 
 on:
@@ -12,5 +13,5 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - uses: arma-actions/sqflint@1.0
-        name: Validate with SQFLint
+      - name: sqflint
+        uses: arma-actions/sqflint@v1.0
