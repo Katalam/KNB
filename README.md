@@ -14,14 +14,19 @@
     <a href="https://github.com/Katalam/KNB/releases">
         <img src="https://img.shields.io/github/downloads/Katalam/KNB/total.svg?style=flat-square&label=Downloads" alt="KNB Downloads">
     </a>
+    <a href="https://github.com/Katalam/KNB/actions">
+        <img src="https://github.com/Katalam/KNB/workflows/CI/badge.svg" alt="KNB Build Status">
+    </a>
+    <a href="https://discord.gg/HbA93HK">
+        <img src="https://img.shields.io/discord/308323056592486420?logo=discord" alt="chat on Discord">
+    </a>
     <a href="CONTRIBUTING.md">
         <img src="https://img.shields.io/badge/Contributor%20Covenant-v1.4%20adopted-ff69b4.svg" alt="Contributor Covenant">
     </a>
 </p>
 
 <p align="center">
-    <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a>.<br/>
-    Visit me on <a href="https://discord.gg/HbA93HK">Discord</a></strong></sup>
+    <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a>.</strong></sup>
 </p>
 
 You were ever in the need of writing something down? Here you are.
