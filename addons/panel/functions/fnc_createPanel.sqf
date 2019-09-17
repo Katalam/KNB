@@ -19,9 +19,10 @@
 
 params [
     "",
-    ["_player", objNull, [objNull]]
+    ["_player", objNull, [objNull]],
+    ["_params", [], [[]]]
 ];
-(_this select 2) params [
+_params params [
     ["_color", "RED", [""]],
     ["_small", false, [false]]
 ];
