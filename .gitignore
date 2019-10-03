@@ -1,16 +1,23 @@
 *.pbo
-*.bisign
 
+# pictures and models
+*.jpg
+*.psd
+*.xcf
+*.blend
 *.png
 !workshop.png
 !logo.png
-*.blend
-*.fbx
-*.jpg
 *.mtl
 *.obj
-*.xcf
-*.psd
+*.fbx
 
+# keys
+*.biprivatekey
+
+# folder
+releases/*
+keys/*
+
+# other
 todo.md
-\releases
