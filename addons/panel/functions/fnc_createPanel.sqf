@@ -60,7 +60,7 @@ if (_small) then {
     _posHelper = _position vectorAdd [random 5, random 5, 0];
 };
 
-private _helper = createVehicle ["Land_PortableCabinet_01_closed_sand_F", _posHelper, [], 0, "CAN_COLLIDE"];
+private _helper = createVehicle ["Land_Map_F", _posHelper, [], 0, "CAN_COLLIDE"];
 createVehicle ["Land_ClutterCutter_large_F", _position, [], 0, "CAN_COLLIDE"];
 _helper setDir random 360;
 

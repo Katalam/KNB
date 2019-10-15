@@ -15,8 +15,8 @@ class CfgVehicles {
         };
     };
 
-    class Land_PortableCabinet_01_closed_base_F;
-    class Land_PortableCabinet_01_closed_sand_F: Land_PortableCabinet_01_closed_base_F { //Land_TentSolar_01_folded_base_F Land_TentSolar_01_base_F
+    class Items_base_F;
+    class Land_Map_F: Items_base_F {
         class ACE_Actions {
             class ACE_MainActions {
                 displayName = $STR_ACE_interaction_MainAction;
