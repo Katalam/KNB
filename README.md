@@ -15,7 +15,10 @@
         <img src="https://img.shields.io/github/downloads/Katalam/KNB/total.svg?style=flat-square&label=Downloads" alt="KNB Downloads">
     </a>
     <a href="https://github.com/Katalam/KNB/actions">
-        <img src="https://github.com/Katalam/KNB/workflows/CI/badge.svg" alt="KNB Build Status">
+        <img src="https://github.com/Katalam/KNB/workflows/CI/badge.svg" alt="KNB CI Status">
+    </a>
+    <a href="https://github.com/Katalam/KNB/actions">
+        <img src="https://github.com/Katalam/KNB/workflows/build/badge.svg" alt="KNB Build Status">
     </a>
     <a href="https://discord.gg/HbA93HK">
         <img src="https://img.shields.io/discord/308323056592486420?logo=discord" alt="chat on Discord">
