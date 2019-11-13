@@ -15,4 +15,4 @@ jobs:
       - name: Build addon with HEMTT
         uses: arma-actions/hemtt@master
         with:
-          command: 'build'
+          command: 'build --release'
