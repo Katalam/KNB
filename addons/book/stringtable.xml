@@ -19,7 +19,7 @@
         <Key ID="STR_KNB_book_book_description">
             <English>Katalam</English>
             <German>Katalam</German>
-            <Chinese>Katalam製作筆記本，五種筆記界面，可以記錄在任務中的一些事情並快速翻閱</Chinese>
+            <Chinese>由Katalam製作的筆記本，有五種顏色標籤，可以記錄在任務中的一些事情並快速翻閱</Chinese>
         </Key>
         <Key ID="STR_KNB_book_keyBind">
             <English>Open the notebook if you have one</English>
