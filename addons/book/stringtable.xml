@@ -4,22 +4,27 @@
         <Key ID="STR_KNB_book_book_displayName">
             <English>Notebook</English>
             <German>Notizbuch</German>
+            <Chinese>筆記本</Chinese>
         </Key>
         <Key ID="STR_KNB_book_open">
             <English>Open Notebook</English>
             <German>Öffne Notizbuch</German>
+            <Chinese>翻開筆記本</Chinese>
         </Key>
         <Key ID="STR_KNB_book_cba_open">
             <English>Ability to open Notebook with ace intercation</English>
             <German>Möglichkeit Notizbuch über ACE Interaktion zu öffnen</German>
+            <Chinese>妳可以使用ACE的自我互動來翻開筆記本</Chinese>
         </Key>
         <Key ID="STR_KNB_book_book_description">
             <English>Katalam</English>
             <German>Katalam</German>
+            <Chinese>Katalam製作筆記本，五種筆記界面，可以記錄在任務中的一些事情並快速翻閱</Chinese>
         </Key>
         <Key ID="STR_KNB_book_keyBind">
             <English>Open the notebook if you have one</English>
             <German>Öffnet das Notizbuch, wenn du eins hast</German>
+            <Chinese>如果身上有筆記本即可翻閱</Chinese>
         </Key>
     </Package>
 </Project>
