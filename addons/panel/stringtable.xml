@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="KNB">
     <Package name="panel">
+        <Key ID="STR_KNB_panel_cba_open">
+            <English>Ability to place panels with ace intercation</English>
+            <German>Möglichkeit panels über ACE Interaktion zu plazieren</German>
+        </Key>
         <Key ID="STR_KNB_panel_ace_action">
             <English>Put panel down</English>
             <German>Breite panel aus</German>
