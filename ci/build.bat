@@ -1,2 +1,2 @@
 @echo off
-.\hemtt build
+hemtt build
