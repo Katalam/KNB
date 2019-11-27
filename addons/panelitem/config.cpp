@@ -6,7 +6,7 @@
             weapons[] = {};
             requiredVersion = REQUIRED_VERSION;
             requiredAddons[] = {
-                "CBA_settings"
+                "KNB_panel"
             };
             author = ECSTRING(main,author);
             VERSION_CONFIG;
@@ -15,4 +15,4 @@
 
 
 #include "CfgEventHandlers.hpp"
-#include "CfgVehicles.hpp"
+#include "CfgWeapons.hpp"

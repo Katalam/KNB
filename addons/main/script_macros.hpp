@@ -10,6 +10,7 @@
 
 #define PVAR(var1) DOUBLES(PREFIX,var1)
 #define QPVAR(var1) QUOTE(PVAR(var1))
+#define QQPVAR(var1) QUOTE(QPVAR(var1))
 #define LINKFUNC(var1) {_this call FUNC(var1)}
 #define QLINKFUNC(var1) QUOTE(_this call FUNC(var1))
 
