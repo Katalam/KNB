@@ -1,0 +1,4 @@
+If you want to convert the mod to a client side only variant. You need to do the following steps:
+1. You either delete the <bookitem> or <panelitem> or move them to the optional folder
+2. You need to be sure that all clients and the server doing that
+3. You are done
