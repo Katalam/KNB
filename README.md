@@ -6,7 +6,7 @@
 
 <p align="center">
     <a href="https://github.com/Katalam/KNB/releases/latest">
-        <img src="https://img.shields.io/badge/Version-0.1.1-blue.svg?style=flat-square" alt="KNB Version">
+        <img src="https://img.shields.io/badge/Version-1.3.1-blue.svg?style=flat-square" alt="KNB Version">
     </a>
     <a href="https://github.com/Katalam/KNB/issues">
         <img src="https://img.shields.io/github/issues-raw/Katalam/KNB.svg?style=flat-square&label=Issues" alt="KNB Issues">

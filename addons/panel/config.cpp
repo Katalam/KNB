@@ -5,8 +5,10 @@
             units[] = {};
             weapons[] = {};
             requiredVersion = REQUIRED_VERSION;
-            requiredAddons[] = {};
-            author = "Katalam";
+            requiredAddons[] = {
+                "CBA_settings"
+            };
+            author = ECSTRING(main,author);
             VERSION_CONFIG;
         };
     };
@@ -14,4 +16,3 @@
 
 #include "CfgEventHandlers.hpp"
 #include "CfgVehicles.hpp"
-#include "CfgWeapons.hpp"

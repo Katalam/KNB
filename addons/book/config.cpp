@@ -3,11 +3,11 @@
         class ADDON {
             name = QUOTE(COMPONENT);
             units[] = {};
-            weapons[] = {
-                QUOTE(KAT_Notebook)
-            };
+            weapons[] = {};
             requiredVersion = REQUIRED_VERSION;
-            requiredAddons[] = {};
+            requiredAddons[] = {
+                "CBA_settings"
+            };
             author = ECSTRING(main,author);
             VERSION_CONFIG;
         };
@@ -15,6 +15,5 @@
 
 
 #include "CfgEventHandlers.hpp"
-#include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"
 #include "ui\book.hpp"

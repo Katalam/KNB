@@ -5,4 +5,4 @@
     QUOTE(PREFIX),
     [true],
     true
-] call CBA_fnc_addSetting;
+] call CBA_Settings_fnc_init;

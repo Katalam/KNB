@@ -5,7 +5,7 @@ class CfgVehicles {
             class ACE_Equipment {
                 class GVAR(panel) {
                     displayName = CSTRING(ace_action);
-                    condition = "true";
+                    condition = QGVAR(aceAction);
                     statement = "";
                     showDisabled = 0;
                     icon = "";

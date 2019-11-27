@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="KNB">
+    <Package name="panelitem">
+        <Key ID="STR_KNB_panelitem_red">
+            <English>Red panel</English>
+            <German>Rotes Panel</German>
+        </Key>
+        <Key ID="STR_KNB_panelitem_yellow">
+            <English>Yellow panel</English>
+            <German>Gelbes Panel</German>
+        </Key>
+        <Key ID="STR_KNB_panelitem_green">
+            <English>Green panel</English>
+            <German>Grünes Panel</German>
+        </Key>
+    </Package>
+</Project>

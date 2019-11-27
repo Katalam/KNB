@@ -22,7 +22,7 @@ params ["_target", "_player"];
 private _actions = [];
 
 // Red
-if (QPVAR(PanelRed) in items _player) then {
+if (GVAR(withoutitems) || QPVAR(PanelRed) in items _player) then {
     private _statement = {_this call FUNC(createPanel)};
     private _action = [QGVAR(PanelRed), localize LSTRING(red), "", _statement, {true}, {}, ["RED"]] call ace_interact_menu_fnc_createAction;
     private _actionSmall = [QGVAR(PanelRedSmall), localize LSTRING(redSmall), "", _statement, {true}, {}, ["RED", true]] call ace_interact_menu_fnc_createAction;
@@ -31,7 +31,7 @@ if (QPVAR(PanelRed) in items _player) then {
 };
 
 // Yellow
-if (QPVAR(PanelYellow) in items _player) then {
+if (GVAR(withoutitems) || QPVAR(PanelYellow) in items _player) then {
     private _statement = {_this call FUNC(createPanel)};
     private _action = [QGVAR(PanelYellow), localize LSTRING(yellow), "", _statement, {true}, {}, ["YELLOW"]] call ace_interact_menu_fnc_createAction;
     private _actionSmall = [QGVAR(PanelYellowSmall), localize LSTRING(yellowSmall), "", _statement, {true}, {}, ["YELLOW", true]] call ace_interact_menu_fnc_createAction;
@@ -40,7 +40,7 @@ if (QPVAR(PanelYellow) in items _player) then {
 };
 
 // Green
-if (QPVAR(PanelGreen) in items _player) then {
+if (GVAR(withoutitems) || QPVAR(PanelGreen) in items _player) then {
     private _statement = {_this call FUNC(createPanel)};
     private _action = [QGVAR(PanelGreen), localize LSTRING(green), "", _statement, {true}, {}, ["GREEN"]] call ace_interact_menu_fnc_createAction;
     private _actionSmall = [QGVAR(PanelYGreenSmall), localize LSTRING(greenSmall), "", _statement, {true}, {}, ["GREEN", true]] call ace_interact_menu_fnc_createAction;
