@@ -4,11 +4,12 @@
         <Key ID="STR_KNB_panel_cba_open">
             <English>Ability to place panels with ace intercation</English>
             <German>Möglichkeit panels über ACE Interaktion zu plazieren</German>
+            <Chinese>能夠透過ACE互動來放置頁面</Chinese>
         </Key>
         <Key ID="STR_KNB_panel_ace_action">
             <English>Put panel down</English>
             <German>Breite panel aus</German>
-            <Chinese>放下頁面</Chinese>
+            <Chinese>放置頁面</Chinese>
         </Key>
         <Key ID="STR_KNB_panel_ace_actionRemove">
             <English>Pick panel up</English>
