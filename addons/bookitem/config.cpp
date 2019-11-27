@@ -1,12 +1,14 @@
 #include "script_component.hpp"
     class CfgPatches {
         class ADDON {
-            name = QUOTE(COMPONENT);
+            name = COMPONENT;
             units[] = {};
-            weapons[] = {};
+            weapons[] = {
+                    QPVAR(Notebook)
+            };
             requiredVersion = REQUIRED_VERSION;
             requiredAddons[] = {
-                "CBA_settings"
+                "KNB_book"
             };
             author = ECSTRING(main,author);
             VERSION_CONFIG;
@@ -16,4 +18,4 @@
 
 #include "CfgEventHandlers.hpp"
 #include "CfgVehicles.hpp"
-#include "ui\book.hpp"
+#include "CfgWeapons.hpp"

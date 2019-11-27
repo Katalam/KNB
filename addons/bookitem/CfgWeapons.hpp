@@ -9,7 +9,7 @@ class CfgWeapons {
         displayName = CSTRING(book_displayName);
         descriptionShort = CSTRING(book_description);
         model = QPATHTOF(data\model\book.p3d);
-        picture = QPATHTOF(ui\book_item.paa);
+        picture = QPATHTOEF(book,ui\book_item.paa);
         class ItemInfo: CBA_MiscItem_ItemInfo {
             mass = 1;
         };
