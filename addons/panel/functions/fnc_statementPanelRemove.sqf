@@ -26,7 +26,7 @@ private _object = (nearestObjects [_target, [
     "Tarp_01_Small_Yellow_F",
     "Tarp_01_Large_Red_F",
     "Tarp_01_Small_Red_F"
-], 8]) select 0;
+], 10]) select 0;
 private _grasscutter = nearestObject [_target, "Land_ClutterCutter_large_F"];
 
 deleteVehicle _object;
