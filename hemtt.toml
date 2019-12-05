@@ -3,5 +3,6 @@ prefix = "KNB"
 author = "Katalam"
 version = "1.4.0.0"
 files = ["mod.cpp", "book.paa", "clientsideonly.txt"]
-include = ["./include"]
+include = ["./include", "LICENSE"]
 sigversion = 3
+exclude = ["*.psd", "*.png", "*.tga", "*.blend", "*.blend1", "*.fbx", "*.xcf", "*.obj", "*.jpg", "*.fzz", "*.mtl", "*.spp", "*.painter_lock", "*.svg"]

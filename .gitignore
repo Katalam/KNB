@@ -11,6 +11,7 @@
 *.mtl
 *.obj
 *.fbx
+*.svg
 
 # keys
 *.biprivatekey

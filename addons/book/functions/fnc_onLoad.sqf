@@ -19,6 +19,16 @@ params ["_display"];
 
 uiNamespace setVariable ['KNB_notebook', _display];
 
+if (GVAR(background) == 1) then {
+    (_display displayCtrl IDC_BG) ctrlSetText QPATHTOF(ui\book_2d_ca.paa);
+};
+if (GVAR(background) == 2) then {
+    (_display displayCtrl IDC_BG) ctrlSetText QPATHTOF(ui\book_101st_ca.paa);
+};
+if (GVAR(background) == 3) then {
+    (_display displayCtrl IDC_BG) ctrlSetText QPATHTOF(ui\book_1st_ca.paa);
+};
+
 private _text = player getVariable [QGVAR(notebookData), []];
 TRACE_1("QGVAR(notebookData)", _text);
 

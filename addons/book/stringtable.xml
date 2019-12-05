@@ -16,5 +16,9 @@
             <German>Öffnet das Notizbuch, wenn du eins hast</German>
             <Chinese>如果身上有筆記本即可翻閱</Chinese>
         </Key>
+        <Key ID="STR_KNB_book_background">
+            <English>Switch to other notebook backgrounds</English>
+            <German>Wechselt zu anderen Hintergründen</German>
+        </Key>
     </Package>
 </Project>
