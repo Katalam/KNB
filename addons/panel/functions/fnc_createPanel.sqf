@@ -52,6 +52,11 @@ switch (_color) do {
 private _tarp = createVehicle [_classname, _position, [], 0, "CAN_COLLIDE"];
 _tarp enableSimulation false;
 
+if (GVAR(consume)) then {
+    private _itemName = QPVAR(Panel) + _color; // Get appropiate item name
+    _tarp setVariable [QGVAR(itemName), _itemName, true];
+    _player removeItem _itemName;
+};
 
 private "_posHelper";
 if (_small) then {
