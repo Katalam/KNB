@@ -2,18 +2,18 @@
 <Project name="KNB">
     <Package name="panelitem">
         <Key ID="STR_KNB_panelitem_red">
-            <English>Red panel</English>
-            <German>Rotes Panel</German>
+            <English>Panel (Red)</English>
+            <German>Panel (Rotes)</German>
             <Chinese>紅頁面</Chinese>
         </Key>
         <Key ID="STR_KNB_panelitem_yellow">
-            <English>Yellow panel</English>
-            <German>Gelbes Panel</German>
+            <English>Panel (Yellow)</English>
+            <German>Panel (Gelbes)</German>
             <Chinese>黃頁面</Chinese>
         </Key>
         <Key ID="STR_KNB_panelitem_green">
-            <English>Green panel</English>
-            <German>Grünes Panel</German>
+            <English>Panel (Green)</English>
+            <German>Panel (Grünes)</German>
             <Chinese>綠頁面</Chinese>
         </Key>
     </Package>
