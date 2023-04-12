@@ -33,4 +33,4 @@ private _display = uiNamespace getVariable "KNB_notebook";
 (_display displayCtrl IDC_LINEEIGHTTEXT) ctrlSetText "NATIONALITY";
 (_display displayCtrl IDC_LINENINETEXT) ctrlSetText "TERRAIN DESC";
 
-(_display displayCtrl IDC_EXPLAIN) ctrlSetText "L2 \n A URGENT - B PRIORITY C ROUTINE \n L4 \n A NONE - B HOIST/ WINCH \n C EXTRACTION - D VENTILATOR";
+(_display displayCtrl IDC_EXPLAIN) ctrlSetText "L3 \n A URGENT - B PRIORITY C ROUTINE \n L4 \n A NONE - B HOIST/ WINCH \n C EXTRACTION - D VENTILATOR";
