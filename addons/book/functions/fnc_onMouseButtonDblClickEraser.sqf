@@ -24,5 +24,5 @@ player setVariable [QGVAR(notebookData), []];
 IDC_LINEALLTEXT apply {
     private _a = _display displayCtrl _x;
     _a ctrlSetText "";
-    TRACE_2("Notebook display load", _idc);
+    TRACE_1("Notebook display load", _idc);
 };

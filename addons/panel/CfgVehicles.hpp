@@ -19,8 +19,8 @@ class CfgVehicles {
     class Land_Map_F: Items_base_F {
         class ACE_Actions {
             class ACE_MainActions {
-                displayName = $STR_ACE_interaction_MainAction;
-                position = [0, 0, 0];
+                displayName = "$STR_ACE_interaction_MainAction";
+                position = "[0, 0, 0]";
                 distance = 4;
                 condition = "true";
 
