@@ -43,10 +43,11 @@ These instructions will get you a copy of the project up and running on your loc
 The build process is base on the [HEMTT build process](https://synixebrett.github.io/HEMTT/#/), so you can follow the steps there. Basically the following is needed:
 + correctly setup project drive (P: drive)
 + download/clone KNB GitHub repo
++ download/build hemtt from [HEMTT releases](https://github.com/brettmayson/HEMTT/releases)
++ move executable to the root folder of KNB
 + right-click in the root folder and open power shell
-+ you can build by executing ```.\hemtt build``` from the tools folder
-+ you have to setup the data link with admin cmd: mklink /J "A:\SteamLibrary\steamapps\common\Arma 3\z\KNB" "P:\KNB"
-+ for testing include your mod by adding ```-mod=z\KNB``` as start parameter
++ you can build by executing `.\hemtt.exe dev`
++ use `.\hemtt.exe launch` for start
 
 ## Built With
 
