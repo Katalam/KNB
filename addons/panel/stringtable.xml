@@ -2,7 +2,7 @@
 <Project name="KNB">
     <Package name="panel">
         <Key ID="STR_KNB_panel_cba_open">
-            <English>Ability to place panels with ace intercation</English>
+            <English>Ability to place panels with ace interaction</English>
             <German>Möglichkeit panels über ACE Interaktion zu plazieren</German>
             <Chinese>能夠透過ACE互動來放置頁面</Chinese>
         </Key>
@@ -15,6 +15,12 @@
             <English>Pick panel up</English>
             <German>Hebe panel auf</German>
             <Chinese>撿起頁面</Chinese>
+        </Key>
+        <Key ID="STR_KNB_panel_consume">
+            <English>Consume Panel Items</English>
+        </Key>
+        <Key ID="STR_KNB_panel_consumeDesc">
+            <English>Panels are removed from inventory when placed down, and added when picked up</English>
         </Key>
         <Key ID="STR_KNB_panel_red">
             <English>Red</English>
