@@ -5,16 +5,19 @@
             <English>Panel (Red)</English>
             <German>Panel (Rotes)</German>
             <Chinese>紅頁面</Chinese>
+            <French>Panneau (Rouge)</French>
         </Key>
         <Key ID="STR_KNB_panelitem_yellow">
             <English>Panel (Yellow)</English>
             <German>Panel (Gelbes)</German>
             <Chinese>黃頁面</Chinese>
+            <French>Panneau (Jaune)</French>
         </Key>
         <Key ID="STR_KNB_panelitem_green">
             <English>Panel (Green)</English>
             <German>Panel (Grünes)</German>
             <Chinese>綠頁面</Chinese>
+            <French>Panneau (Vert)</French>
         </Key>
     </Package>
 </Project>
