@@ -5,52 +5,63 @@
             <English>Ability to place panels with ace interaction</English>
             <German>Möglichkeit panels über ACE Interaktion zu plazieren</German>
             <Chinese>能夠透過ACE互動來放置頁面</Chinese>
+            <French>Capacité à placer des panneaux avec l'interaction Ace</French>
         </Key>
         <Key ID="STR_KNB_panel_ace_action">
             <English>Put panel down</English>
             <German>Breite panel aus</German>
             <Chinese>放置頁面</Chinese>
+            <French>Poser le panneau</French>
         </Key>
         <Key ID="STR_KNB_panel_ace_actionRemove">
             <English>Pick panel up</English>
             <German>Hebe panel auf</German>
             <Chinese>撿起頁面</Chinese>
+            <French>Ramasser le panneau</French>
         </Key>
         <Key ID="STR_KNB_panel_consume">
             <English>Consume Panel Items</English>
+            <French>Consommer des éléments du panneau</French>
         </Key>
         <Key ID="STR_KNB_panel_consumeDesc">
             <English>Panels are removed from inventory when placed down, and added when picked up</English>
+            <French>Les panneaux sont retirés de l'inventaire lorsqu'ils sont posés et ajoutés lorsqu'ils sont ramassés.</French>
         </Key>
         <Key ID="STR_KNB_panel_red">
             <English>Red</English>
             <German>Rot</German>
             <Chinese>紅</Chinese>
+            <French>Rouge</French>
         </Key>
         <Key ID="STR_KNB_panel_redSmall">
             <English>Red (Small)</English>
             <German>Rot (Klein)</German>
             <Chinese>紅（小）</Chinese>
+            <French>Rouge (Petit)</French>
         </Key>
         <Key ID="STR_KNB_panel_yellow">
             <English>Yellow</English>
             <German>Gelb</German>
             <Chinese>黃</Chinese>
+            <French>Jaune</French>
         </Key>
         <Key ID="STR_KNB_panel_yellowSmall">
             <English>Yellow (Small)</English>
             <German>Gelb (Klein)</German>
             <Chinese>黃（小）</Chinese>
+            <French>Jaune (Petit)</French>
         </Key>
         <Key ID="STR_KNB_panel_green">
             <English>Green</English>
             <German>Grün</German>
             <Chinese>綠</Chinese>
+            <French>Vert</French>
         </Key>
         <Key ID="STR_KNB_panel_greenSmall">
             <English>Green (Small)</English>
             <German>Grün (Klein)</German>
             <Chinese>綠（小）</Chinese>
+            <French>Vert (Petit)</French>
         </Key>
     </Package>
 </Project>

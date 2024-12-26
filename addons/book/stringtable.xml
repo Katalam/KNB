@@ -5,20 +5,24 @@
             <English>Open Notebook</English>
             <German>Öffne Notizbuch</German>
             <Chinese>翻開筆記本</Chinese>
+            <French>Ouvrir le carnet</French>
         </Key>
         <Key ID="STR_KNB_book_cba_open">
             <English>Ability to open Notebook with ace intercation</English>
             <German>Möglichkeit Notizbuch über ACE Interaktion zu öffnen</German>
             <Chinese>妳可以使用ACE的自我互動來翻開筆記本</Chinese>
+            <French>Possibilité d'ouvrir le carnet de notes à l'aide d'une intercation Ace</French>
         </Key>
         <Key ID="STR_KNB_book_keyBind">
             <English>Open the notebook if you have one</English>
             <German>Öffnet das Notizbuch, wenn du eins hast</German>
             <Chinese>如果身上有筆記本即可翻閱</Chinese>
+            <French>Ouvrez le carnet de notes si vous en avez un</French>
         </Key>
         <Key ID="STR_KNB_book_background">
             <English>Switch to other notebook backgrounds</English>
             <German>Wechselt zu anderen Hintergründen</German>
+            <French>Passe à un autre arrière-plan</French>
         </Key>
     </Package>
 </Project>
